@@ -6,5 +6,5 @@ Currently supported games:
 
 Load SnowyyClient with this script:
 ```
-https://raw.githubusercontent.com/SnowyyyCat/SnowyyClient/refs/heads/main/loader
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyyyCat/SnowyyClient/refs/heads/main/loader"))()
 ```
