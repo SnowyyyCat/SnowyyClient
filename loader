@@ -1,0 +1,10 @@
+-- SnowyyClient Loader
+
+print("[SnowyyClient] Loading..")
+print("[SnowyyClient] Detecting game..")
+if game.GameId == 6508759464 then
+    print("[SnowyyClient] Loading Grace script..")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/SnowyyyCat/SnowyyClient/refs/heads/main/Grace/game.luau"))()
+else
+    print("[SnowyyClient] Unsupported Game.")
+end
