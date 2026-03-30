@@ -3,6 +3,7 @@ Roblox script hub, mainly for Grace.
 
 Currently supported games:
   - Grace
+  - Universal
 
 Load SnowyyClient with this script:
 ```
